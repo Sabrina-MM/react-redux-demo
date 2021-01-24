@@ -14,7 +14,7 @@ function IceCreamContainer(props) {
 
 const mapStateToProps = (state) => {
   return {
-    numberOfIceCreams: state.iceCream.numberOfIceCreams, // return and object// to see the numbers of iceCream we need to specify state.icecream.numOfIceCreams from rrotReducer.js
+    numberOfIceCreams: state.iceCream.numberOfIceCreams, // return and object// to see the numbers of iceCream we need to specify state.icecream.numOfIceCreams from
   };
 };
 

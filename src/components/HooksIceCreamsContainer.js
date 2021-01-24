@@ -3,7 +3,9 @@ import { useSelector, useDispatch } from "react-redux";
 import { buyIceCreams } from "./redux";
 
 function HooksIceCreamContainer() {
-  const numberOfIceCreams = useSelector((state) => state.iceCream.buyIceCreams);
+  const numberOfIceCreams = useSelector(
+    (state) => state.iceCream.numberOfIceCreams
+  );
   const dispatch = useDispatch();
   return (
     <div>
