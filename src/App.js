@@ -5,15 +5,25 @@ import "./App.css";
 import HooksCakeContainer from "./components/HooksCakeContainer";
 import IceCreamContainer from "./components/IceCreamContainer";
 import HooksIceCreamContainer from "./components/HooksIceCreamsContainer";
+import CoffeeContainer from "./components/CoffeeContainer";
+import NewCoffeeContainer from "./components/NewCoffeeContainer";
+import ItemContainer from "./components/ItemContainer";
+import UserContainer from "./components/UserContainer";
 
 function App() {
   return (
     <Provider store={store}>
       <div className="App">
+        <UserContainer />
+        <hr />
+        <ItemContainer />
+        <ItemContainer cake />
         <CakeContainer />
         <HooksCakeContainer />
         <IceCreamContainer />
         <HooksIceCreamContainer />
+        <CoffeeContainer />
+        <NewCoffeeContainer />
       </div>
     </Provider>
   );
